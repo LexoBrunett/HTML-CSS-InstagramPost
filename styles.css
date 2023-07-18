@@ -1,0 +1,67 @@
+body{
+	background: black;
+	margin: 0;
+	font-family:'Courier New', Courier, monospace
+}
+
+header{
+	background: white;
+	padding: 10px;
+}
+header h1{
+	margin: 0;
+}
+
+div.post{
+	background: white;
+	margin-top: 10px;
+}
+
+div.post img{
+	width: 100%;
+}
+
+div.post .post-header p{
+	font-size: xx-small;
+}
+
+div.post .post-header div:nth-child(1n){
+	display: inline-block;
+	width: 33%;
+}
+
+div.post .post-header div:nth-child(2n){
+	display: inline-block;
+	width: 33%;
+}
+
+div.post .post-header div:last-child{
+	display: inline-block;
+	text-align: right;
+}
+
+div.post .post-footer svg:nth-child(1n){
+	display: inline-block;
+}
+
+div.post .post-footer svg:nth-child(2n){
+	display: inline-block;
+}
+
+div.post .post-footer svg:nth-child(3n){
+	display: inline-block;
+}
+
+div.post .post-footer svg:last-child{
+	display: inline-block;
+	width: 80%;
+	align-items:flex-end;
+}
+div.post h2, div.post p{
+	padding: 10px;
+	margin: 0;
+}
+div.container{
+	margin: auto;
+	width: 400px;
+}
