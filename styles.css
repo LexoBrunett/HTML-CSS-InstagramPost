@@ -42,10 +42,30 @@ div.post-header{
 	transform: scale(2);
 }
 
+.post-header .three_points svg {
+	margin-right: 20px;
+	transform: scale(2);
+}
+
 div.post .post-header p{
 	font-size: small;
 }
 
 div.post img{
 	width: 100%;
+	margin-bottom: 10px;
 }
+
+.post-footer .post-footer-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.post-footer-header svg {
+	transform: scale(1.5);
+	padding-right: 10px;
+}
+
