@@ -17,6 +17,7 @@ div.post{
 
 div.post p{
 	margin-top: 10px;
+	margin-left: 10px;
 }
 
 div.container{
@@ -68,4 +69,3 @@ div.post img{
 	transform: scale(1.5);
 	padding-right: 10px;
 }
-
